@@ -1,0 +1,77 @@
+.chat-help-get-pro-text {
+  color: #35b747;
+  font-weight: bold;
+}
+.only_pro .chat-whatsapp-fieldset .chat-whatsapp--sibling:nth-child(2) {
+  pointer-events: none;
+  position: relative;
+  background: #ccc;
+}
+.only_pro .chat-whatsapp-fieldset .chat-whatsapp--sibling:nth-child(2):after {
+  content: "PRO";
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 10px;
+  background: #000;
+  z-index: 999;
+  opacity: inherit;
+  color: #fff;
+  padding: 0px 2px;
+}
+
+.chat-whatsapp--switcher.only_pro_switcher .chat-whatsapp--ball::after,
+.chat-whatsapp-field.only_pro .chat-whatsapp--inputs:after {
+  content: "PRO";
+  position: relative;
+  text-align: center;
+  width: 24px;
+  float: right;
+  font-weight: 600;
+  font-size: 8px;
+  color: #8796a1;
+  opacity: 1;
+  line-height: 18px;
+}
+.chat-whatsapp-field.only_pro .chat-whatsapp--inputs:after {
+  height: 20px;
+  border-radius: 3px;
+  background-color: #8796a1;
+  color: #ffffff;
+}
+.chat-whatsapp-field.only_pro > .chat-whatsapp-fieldset,
+.chat-whatsapp-field.only_pro > .chat-whatsapp-fieldset input[type="text"] {
+  pointer-events: none;
+  opacity: 0.5;
+}
+.chat-whatsapp-field.only_pro > .chat-whatsapp-fieldset input,
+.chat-whatsapp-field.only_pro > .chat-whatsapp-fieldset .chat-whatsapp--icon,
+.chat-whatsapp-field.only_pro > .chat-whatsapp-fieldset .chat-whatsapp--button,
+.chat-whatsapp-field.only_pro > .chat-whatsapp-fieldset select {
+  border-color: #ede9e9;
+  color: #999;
+}
+.chat-whatsapp-field.only_pro > .chat-whatsapp-fieldset .chat-whatsapp--active {
+  color: #fff;
+}
+
+.chat-whatsapp-field-button_set .disabled.chat-whatsapp--button {
+  opacity: 0.9;
+  pointer-events: none;
+}
+
+.chat-whatsapp-field-button_set .disabled.chat-whatsapp--button:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #5e6e7d;
+  background-color: #cbd6df;
+  font-weight: 600;
+  padding: 0 4px;
+  content: "PRO";
+  text-align: center;
+  font-size: 8px;
+  line-height: 11px;
+  opacity: 1;
+  border-radius: 0 2px 0 2px;
+}
